@@ -4,16 +4,13 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
-import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.padding
-import androidx.compose.material3.Scaffold
-import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
-import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.navigation.compose.rememberNavController
 import com.der3.der3admin.presentation.navigation.MainNavHost
-import com.der3.der3admin.presentation.theme.Der3AdminTheme
+import com.der3.der3admin.presentation.screens.home.HomeScreen
+import com.der3.der3admin.presentation.screens.home.mvi.HomeState
+import com.der3.ui.themes.Der3AdminTheme
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
@@ -30,18 +27,14 @@ class MainActivity : ComponentActivity() {
     }
 }
 
-@Composable
-fun Greeting(name: String, modifier: Modifier = Modifier) {
-    Text(
-        text = "Hello $name!",
-        modifier = modifier
-    )
-}
-
 @Preview(showBackground = true)
 @Composable
-fun GreetingPreview() {
+fun MainActivityPreview() {
     Der3AdminTheme {
-        Greeting("Android")
+        // Since MainNavHost requires Hilt, we preview the default HomeScreen UI here
+        HomeScreen(
+            state = HomeState(),
+            onIntent = {}
+        )
     }
 }

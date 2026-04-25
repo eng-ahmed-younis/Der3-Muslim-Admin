@@ -25,7 +25,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import coil.compose.AsyncImage
 import com.der3.der3admin.domain.NotificationType
-import com.der3.der3admin.presentation.theme.Der3AdminTheme
+import com.der3.ui.themes.Der3AdminTheme
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

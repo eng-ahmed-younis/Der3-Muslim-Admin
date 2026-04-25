@@ -1,6 +1,6 @@
 package com.der3.der3admin.presentation.screens.daily_notification.mvi
 
-import com.der3.der3admin.presentation.mvi.Reducer
+import com.der3.der3admin.mvi.Reducer
 import javax.inject.Inject
 
 class DailyNotificationReducer @Inject constructor() : Reducer<DailyNotificationAction, DailyNotificationState> {

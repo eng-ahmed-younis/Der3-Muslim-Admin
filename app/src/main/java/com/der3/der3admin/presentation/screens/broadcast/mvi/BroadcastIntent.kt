@@ -2,7 +2,7 @@ package com.der3.der3admin.presentation.screens.broadcast.mvi
 
 import android.net.Uri
 import com.der3.der3admin.domain.NotificationType
-import com.der3.der3admin.presentation.mvi.MviIntent
+import com.der3.der3admin.mvi.MviIntent
 
 sealed class BroadcastIntent : MviIntent {
     data object LoadBroadcasts : BroadcastIntent()

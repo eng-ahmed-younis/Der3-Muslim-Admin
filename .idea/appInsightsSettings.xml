@@ -23,9 +23,9 @@
               <option name="connection">
                 <ConnectionSetting>
                   <option name="appId" value="com.der3.der3admin" />
-                  <option name="mobileSdkAppId" value="1:464462821834:android:a4df65bbc9edeea4c03733" />
-                  <option name="projectId" value="der3-muslim" />
-                  <option name="projectNumber" value="464462821834" />
+                  <option name="mobileSdkAppId" value="1:403591271867:android:e72c5cabfd53766534a09e" />
+                  <option name="projectId" value="der3-muslim-1" />
+                  <option name="projectNumber" value="403591271867" />
                 </ConnectionSetting>
               </option>
               <option name="signal" value="SIGNAL_UNSPECIFIED" />

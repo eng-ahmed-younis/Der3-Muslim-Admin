@@ -14,7 +14,7 @@ import com.der3.der3admin.domain.NotificationType
 import com.der3.der3admin.domain.use_case.BroadcastToAllUseCase
 import com.der3.der3admin.domain.use_case.GetBroadcastHistoryUseCase
 import com.der3.der3admin.domain.use_case.RefreshTokenUseCase
-import com.der3.der3admin.presentation.mvi.MviBaseViewModel
+import com.der3.der3admin.mvi.MviBaseViewModel
 import com.der3.der3admin.presentation.screens.broadcast.mvi.*
 import dagger.hilt.android.lifecycle.HiltViewModel
 import dagger.hilt.android.qualifiers.ApplicationContext

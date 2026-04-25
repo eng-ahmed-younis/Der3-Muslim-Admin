@@ -1,7 +1,7 @@
 package com.der3.der3admin.presentation.screens.daily_notification.mvi
 
 import android.net.Uri
-import com.der3.der3admin.presentation.mvi.MviAction
+import com.der3.der3admin.mvi.MviAction
 
 sealed class DailyNotificationAction : MviAction {
     data class SetTitle(val title: String) : DailyNotificationAction()

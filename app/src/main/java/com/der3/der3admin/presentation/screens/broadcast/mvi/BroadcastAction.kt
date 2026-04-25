@@ -3,7 +3,7 @@ package com.der3.der3admin.presentation.screens.broadcast.mvi
 import android.net.Uri
 import com.der3.der3admin.domain.NotificationType
 import com.der3.der3admin.domain.models.BroadcastNotification
-import com.der3.der3admin.presentation.mvi.MviAction
+import com.der3.der3admin.mvi.MviAction
 
 sealed class BroadcastAction : MviAction {
     data class UpdateBroadcasts(val broadcasts: List<BroadcastNotification>) : BroadcastAction()

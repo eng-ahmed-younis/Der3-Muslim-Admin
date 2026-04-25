@@ -1,4 +1,4 @@
-package com.der3.der3admin.presentation.theme
+package com.der3.ui.themes
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle

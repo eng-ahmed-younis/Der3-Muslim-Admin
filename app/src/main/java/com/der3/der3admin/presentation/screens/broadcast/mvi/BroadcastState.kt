@@ -3,7 +3,7 @@ package com.der3.der3admin.presentation.screens.broadcast.mvi
 import android.net.Uri
 import com.der3.der3admin.domain.NotificationType
 import com.der3.der3admin.domain.models.BroadcastNotification
-import com.der3.der3admin.presentation.mvi.MviState
+import com.der3.der3admin.mvi.MviState
 
 data class BroadcastState(
     val title: String = "",

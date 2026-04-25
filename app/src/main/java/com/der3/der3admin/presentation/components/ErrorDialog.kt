@@ -19,7 +19,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.compose.ui.window.Dialog
 import com.der3.ui.themes.AppColors
-import com.der3.ui.themes.Der3MuslimTheme
+import com.der3.ui.themes.Der3AdminTheme
 
 @Composable
 fun ErrorDialog(
@@ -135,7 +135,7 @@ fun ErrorDialog(
 @Preview(showBackground = true)
 @Composable
 private fun ErrorDialogPreview() {
-    Der3MuslimTheme {
+    Der3AdminTheme {
         // We use a Box to provide a container for the Dialog preview
         Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
             ErrorDialog(

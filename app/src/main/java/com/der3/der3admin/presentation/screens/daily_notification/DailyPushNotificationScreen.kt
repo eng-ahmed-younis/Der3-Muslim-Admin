@@ -25,8 +25,8 @@ import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import coil.compose.AsyncImage
 import com.der3.der3admin.presentation.components.Der3TopAppBar
-import com.der3.der3admin.presentation.theme.AppColors
 import com.der3.der3admin.presentation.screens.daily_notification.mvi.DailyNotificationIntent
+import com.der3.ui.themes.AppColors
 
 
 @OptIn(ExperimentalMaterial3Api::class)

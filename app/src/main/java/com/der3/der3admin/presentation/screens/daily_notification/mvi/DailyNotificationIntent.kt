@@ -1,7 +1,7 @@
 package com.der3.der3admin.presentation.screens.daily_notification.mvi
 
 import android.net.Uri
-import com.der3.der3admin.presentation.mvi.MviIntent
+import com.der3.der3admin.mvi.MviIntent
 
 sealed class DailyNotificationIntent : MviIntent {
     data class OnTitleChange(val title: String) : DailyNotificationIntent()

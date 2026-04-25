@@ -8,7 +8,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.der3.der3admin.presentation.theme.Der3AdminTheme
+import com.der3.ui.themes.Der3AdminTheme
 
 @Composable
 fun LoadingIndicator(

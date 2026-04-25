@@ -1,6 +1,6 @@
 package com.der3.der3admin.presentation.screens.broadcast.mvi
 
-import com.der3.der3admin.presentation.mvi.Reducer
+import com.der3.der3admin.mvi.Reducer
 import javax.inject.Inject
 
 class BroadcastReducer @Inject constructor() : Reducer<BroadcastAction, BroadcastState> {

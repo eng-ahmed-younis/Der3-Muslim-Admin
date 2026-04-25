@@ -9,7 +9,7 @@ import com.der3.der3admin.domain.NotificationType
 import com.der3.der3admin.domain.repo.StorageRepository
 import com.der3.der3admin.domain.use_case.BroadcastToAllUseCase
 import com.der3.der3admin.presentation.screens.daily_notification.mvi.*
-import com.der3.der3admin.presentation.mvi.MviBaseViewModel
+import com.der3.der3admin.mvi.MviBaseViewModel
 import dagger.hilt.android.lifecycle.HiltViewModel
 import dagger.hilt.android.qualifiers.ApplicationContext
 import kotlinx.coroutines.launch

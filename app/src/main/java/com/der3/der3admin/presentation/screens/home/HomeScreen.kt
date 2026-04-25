@@ -27,16 +27,16 @@ import androidx.compose.ui.unit.dp
 import com.der3.der3admin.presentation.components.Der3TopAppBar
 import com.der3.der3admin.presentation.screens.home.mvi.HomeIntent
 import com.der3.der3admin.presentation.screens.home.mvi.HomeState
-import com.der3.der3admin.presentation.theme.AppColors
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.hilt.lifecycle.viewmodel.compose.hiltViewModel
 import com.der3.der3admin.domain.GridItemType
 import com.der3.der3admin.domain.HomeMenuItem
 import com.der3.der3admin.domain.NotificationItemType
-import com.der3.der3admin.presentation.mvi.MviEffect
-import com.der3.der3admin.presentation.theme.Der3AdminTheme
+import com.der3.der3admin.mvi.MviEffect
 import com.der3.der3admin.utils.asString
 import com.der3.screens.Screens
+import com.der3.ui.themes.AppColors
+import com.der3.ui.themes.Der3AdminTheme
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach
 
@@ -45,7 +45,7 @@ import kotlinx.coroutines.flow.onEach
 fun HomeRoute(
     onNavigate: (Screens) -> Unit
 ) {
-    val  viewModel: HomeScreenViewModel = hiltViewModel()
+    val viewModel: HomeScreenViewModel = hiltViewModel()
     val scope = rememberCoroutineScope()
     var errorMessage by remember { mutableStateOf<String?>(null) }
     var showErrorDialog by remember { mutableStateOf(false) }
@@ -80,6 +80,9 @@ fun HomeScreen(
 ) {
     Column(
         modifier = Modifier
+            .padding(
+                top = WindowInsets.statusBars.asPaddingValues().calculateTopPadding()
+            )
             .fillMaxSize()
             .background(color = AppColors.gray50)
     ) {
@@ -97,7 +100,7 @@ fun HomeScreen(
             modifier = Modifier.fillMaxSize()
         ) {
             items(state.menuItems) { item ->
-                HomeMenuCard(item){ type ->
+                HomeMenuCard(item) { type ->
                     onIntent(HomeIntent.OnMenuItemClick(type = type))
                 }
             }

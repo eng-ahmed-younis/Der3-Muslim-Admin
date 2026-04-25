@@ -6,11 +6,11 @@ import androidx.compose.material.icons.filled.Schedule
 import androidx.compose.material.icons.filled.Settings
 import com.der3.der3admin.domain.HomeMenuItem
 import com.der3.der3admin.domain.NotificationItemType
-import com.der3.der3admin.presentation.mvi.MviBaseViewModel
+import com.der3.der3admin.mvi.MviBaseViewModel
 import dagger.hilt.android.lifecycle.HiltViewModel
 import javax.inject.Inject
 
-import com.der3.der3admin.presentation.mvi.MviEffect
+import com.der3.der3admin.mvi.MviEffect
 import com.der3.der3admin.presentation.navigation.screens.Der3NavigationRoute
 import com.der3.der3admin.presentation.screens.home.mvi.HomeAction
 import com.der3.der3admin.presentation.screens.home.mvi.HomeIntent

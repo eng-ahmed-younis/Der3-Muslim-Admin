@@ -17,8 +17,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.der3.ui.themes.AppColors
-import com.der3.ui.themes.Der3MuslimTheme
-import java.util.Locale
+import com.der3.ui.themes.Der3AdminTheme
 
 @Composable
 fun Der3TopAppBar(
@@ -97,7 +96,7 @@ fun Der3TopAppBar(
 @Preview(showBackground = true)
 @Composable
 fun Der3TopAppBarPreview() {
-    Der3MuslimTheme(
+    Der3AdminTheme(
     ) {
         Der3TopAppBar(
             title = "Der3 Top App Bar",

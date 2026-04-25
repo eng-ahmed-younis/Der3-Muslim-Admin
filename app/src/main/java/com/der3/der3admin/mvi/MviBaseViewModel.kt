@@ -1,4 +1,4 @@
-package com.der3.der3admin.presentation.mvi
+package com.der3.der3admin.mvi
 
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf

@@ -41,7 +41,7 @@ object AppColors {
 }
 
 @Composable
-fun Der3MuslimTheme(
+fun Der3AdminTheme(
     darkTheme: Boolean = isSystemInDarkTheme(),
     content: @Composable () -> Unit
 ) {
