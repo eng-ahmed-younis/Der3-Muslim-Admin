@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "403591271867",
+    "project_id": "der3-muslim-1",
+    "storage_bucket": "der3-muslim-1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:403591271867:android:e72c5cabfd53766534a09e",
+        "android_client_info": {
+          "package_name": "com.der3.der3admin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyq-XDayefdWy0BSkZed0KVg5TUFcexnU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:403591271867:android:d3b51de98d8a205334a09e",
+        "android_client_info": {
+          "package_name": "com.der3.muslims"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyq-XDayefdWy0BSkZed0KVg5TUFcexnU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
